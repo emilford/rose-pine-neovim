@@ -480,6 +480,11 @@ local function set_highlights()
 		NeotestUnknown = { fg = palette.subtle },
 		NeotestWatching = { fg = palette.iris },
 
+		-- nvzone/timerly
+		Exgreen = { fg = palette.pine },
+		ExBlack2Bg = { bg = palette.overlay },
+		ExBlack2Border = { fg = palette.highlight_high },
+
 		-- nvim-neo-tree/neo-tree.nvim
 		NeoTreeGitAdded = { fg = groups.git_add },
 		NeoTreeGitConflict = { fg = groups.git_merge },
